@@ -404,7 +404,7 @@ ul.itemList-s figure.figbox p {
 
 /*-- PLAY HARD BOX--*/
 .skillBox{
-  background-color: #fecbca;
+  /*background-color: #fecbca;*/
   background-image: url(../img/skillbg.svg);
   background-attachment: fixed;
   background-repeat: no-repeat;
