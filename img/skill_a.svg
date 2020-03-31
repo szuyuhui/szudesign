@@ -1,0 +1,53 @@
+<svg id="SKILL1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="560" viewBox="0 0 560 560">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffe3dc;
+        fill-opacity: 0.6;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        filter: url(#filter);
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #ffa8ab;
+      }
+
+      .cls-4 {
+        fill: #ff8679;
+      }
+
+      .cls-5 {
+        fill: #ffdad0;
+      }
+
+      .cls-6 {
+        fill: #6d5da8;
+      }
+
+      .cls-7 {
+        fill: #ffc7cb;
+      }
+    </style>
+    <filter id="filter" x="109" y="192" width="343" height="253" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.472"/>
+      <feFlood result="flood" flood-color="#ff6a5c" flood-opacity="0.1"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="bg" class="cls-1" cx="280" cy="280" r="280"/>
+  <path id="圓角矩形_7" data-name="圓角矩形 7" class="cls-2" d="M425,423H135a5,5,0,0,1-5-5V248H430V418A5,5,0,0,1,425,423ZM130,218a5,5,0,0,1,5-5H425a5,5,0,0,1,5,5v25H130V218Zm48,16a5.009,5.009,0,1,0-4.706-5A4.86,4.86,0,0,0,178,234Zm-15.059,0a5.009,5.009,0,1,0-4.706-5A4.86,4.86,0,0,0,162.941,234Zm-15.059,0a5.009,5.009,0,1,0-4.705-5A4.86,4.86,0,0,0,147.882,234Z"/>
+  <rect id="矩形_1" data-name="矩形 1" class="cls-3" x="251.812" y="338.656" width="58" height="58"/>
+  <path id="橢圓_1_拷貝" data-name="橢圓 1 拷貝" class="cls-4" d="M193,339a58.45,58.45,0,1,1,116.9,0H193Zm44.1,14.35a14.7,14.7,0,1,1-14.7,14.7A14.7,14.7,0,0,1,237.1,353.35Z"/>
+  <path id="橢圓_1_拷貝_2" data-name="橢圓 1 拷貝 2" class="cls-5" d="M367.65,397.45A58.45,58.45,0,0,1,309.2,339c0-.117.008-0.233,0.009-0.35H368v58.791C367.883,397.442,367.767,397.45,367.65,397.45ZM193,367.7a29.227,29.227,0,0,1,29.4-29.05v58.1A29.227,29.227,0,0,1,193,367.7Z"/>
+  <path id="形狀_6" data-name="形狀 6" class="cls-6" d="M215.488,115.272l11.75,132.71L280,262.728l52.743-14.736,11.769-132.72H215.488Z"/>
+  <path id="形狀_6_拷貝" data-name="形狀 6 拷貝" class="cls-7" d="M319.389,158.67L317.9,175.342l-4.469,49.987L280,234.564l-0.018.009-33.408-9.253-2.341-26.136H260.6l1.217,13.565,18.165,4.9,0.018-.019,18.183-4.9,2.479-22.589-57.213.156-1.622-15.455,60.208-.7,1.217-16.543-63.038.175L239.155,142.4h81.69Z"/>
+</svg>
