@@ -507,8 +507,11 @@ ul.skillList li strong{
   }
   .skillBox:before{
     background-image: url(../img/skillbg_m.svg);
-    background-position: center center;
+    background-position: top 20vh center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
     /*-webkit-background-size: 100%;
     background-size: 100%;
     background-position: top 10vh center;*/
