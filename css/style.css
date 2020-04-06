@@ -489,9 +489,12 @@ ul.skillList li strong{
 }
 @media (max-width:47.9em){
   .skillBox{
-    -webkit-background-size: 200% auto;
-    background-size: 200% auto;
-    background-position: top 25vh left; 
+    /*-webkit-background-size: 200% auto;
+    background-size: 200% auto;*/
+    /*background-position: top 25vh left;*/
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: top 0 left 0; 
   }
   ul.skillList{
     width: 60vw;
