@@ -421,7 +421,7 @@ ul.itemList-s figure.figbox p {
   left: 0;
   z-index: 1;
   background-image: url(../img/skillbgpng.png);
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-repeat: no-repeat;
   background-position: top 20vh center;
   -webkit-background-size: 100% auto;
@@ -507,9 +507,11 @@ ul.skillList li strong{
   }
   .skillBox:before{
     background-image: url(../img/skillbg_m.svg);
-    -webkit-background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*-webkit-background-size: 100%;
     background-size: 100%;
-    background-position: top 10vh center;
+    background-position: top 10vh center;*/
     /*-webkit-background-size: auto 50%;
     background-size: auto 50%;*/
 
