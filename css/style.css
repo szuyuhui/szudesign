@@ -506,9 +506,15 @@ ul.skillList li strong{
      
   }
   .skillBox:before{
-    -webkit-background-size: contain;
-    background-size: contain;
-    background-position: top 0 left 0;
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+
+    /*-webkit-background-size: contain;
+    background-size: contain;*/
+    /*background-position: top 10% left 0;*/
+    background-position-x: 0%;
+    background-position-y: 20vh;
+
   }
   ul.skillList{
     width: 60vw;
