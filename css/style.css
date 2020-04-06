@@ -506,9 +506,10 @@ ul.skillList li strong{
      
   }
   .skillBox:before{
-    background-image: url(../img/section_bg2.svg);
-    -webkit-background-size: auto 100%;
-    background-size: auto 100%;
+    background-image: url(../img/skillbg_m.svg);
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-position: top 10vh center;
     /*-webkit-background-size: auto 50%;
     background-size: auto 50%;*/
 
