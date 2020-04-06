@@ -67,19 +67,6 @@ section{ width: 100%; padding: 15vh 0; margin: 0; -webkit-box-sizing: border-box
 }
 
 
-/*.header .szudesign{
-  text-indent: -99999px;
-  display: block;
-  width: 92vw;
-  height: 10.2vw;
-  margin: 0 auto;
-  background-image: url(../img/szudesign.svg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-}*/
-
 .header .szudesign{
   text-indent: -99999px;
   display: block;
@@ -404,8 +391,8 @@ ul.itemList-s figure.figbox p {
 
 /*-- PLAY HARD BOX--*/
 .skillBox{
-  background: url(../img/skillbg.svg),#fecbca;
-  /*background-color: #fecbca;*/
+  background-color: #fecbca;
+  background-image: url(../img/skillbg.svg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top 20vh center;
@@ -725,6 +712,64 @@ footer u:hover{
     background-position: 0% 50%;
   }
 }
+
+
+/*@-webkit-keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  from,
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shakesvg {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+  animation-iteration-count:infinite;
+  animation-duration:1s;
+}*/
 
 
 
