@@ -506,8 +506,8 @@ ul.skillList li strong{
      
   }
   .skillBox:before{
-    -webkit-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: contain;
+    background-size: contain;
     background-position: top 0 left 0;
   }
   ul.skillList{
